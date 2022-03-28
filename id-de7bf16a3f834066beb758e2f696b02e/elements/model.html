@@ -1575,6 +1575,13 @@
 										dataElements.push({id:"dc4622bb-54f9-4a07-80ff-1b034f0d5cac", type:"ApplicationComponent", name:decodeURL("Freight+Vendors"), documentation:decodeURL("")});
 									dataFoldersContent.push({folderid:"id-943771ff35314d6d9796eef165d06e13", contentid:"c594a9a6-4765-49b4-81dc-532f0d3a2164", contenttype:"ApplicationComponent"});
 										dataElements.push({id:"c594a9a6-4765-49b4-81dc-532f0d3a2164", type:"ApplicationComponent", name:decodeURL("MICROS"), documentation:decodeURL("")});
+									dataFoldersContent.push({folderid:"id-943771ff35314d6d9796eef165d06e13", contentid:"id-452577e24263409991e55a563ea7e700", contenttype:"ApplicationService"});
+										dataElements.push({id:"id-452577e24263409991e55a563ea7e700", type:"ApplicationService", name:decodeURL("Centric-Keen_Analytics"), documentation:decodeURL("")});
+													dataProperties.push({conceptid:"id-452577e24263409991e55a563ea7e700", propkey:decodeURL("format"), propvalue:decodeURL("CSV")});
+													dataProperties.push({conceptid:"id-452577e24263409991e55a563ea7e700", propkey:decodeURL("integration_technique"), propvalue:decodeURL("Batch+File")});
+
+									dataFoldersContent.push({folderid:"id-943771ff35314d6d9796eef165d06e13", contentid:"id-8cd814ea3cf04e078e5fe6cf57e140a9", contenttype:"DataObject"});
+										dataElements.push({id:"id-8cd814ea3cf04e078e5fe6cf57e140a9", type:"DataObject", name:decodeURL("Demand+Planning"), documentation:decodeURL("")});
 
 								dataFoldersContent.push({folderid:"id-de7bf16a3f834066beb758e2f696b02e", contentid:"id-88357f8257ca4f648115593c1b25a5d4", contenttype:"Folder"});
 								dataFolders.push({id:"id-88357f8257ca4f648115593c1b25a5d4", type:"Folder", name:decodeURL("Technology+%26+Physical"), documentation:decodeURL("")});
@@ -2150,6 +2157,12 @@
 										dataRelationships.push({id:"id-dcd83d7d26414ad9be706ee96a9f43a0", type:"FlowRelationship", name:decodeURL(""), documentation:decodeURL(""), sourceid:"id-ba8d63514d0546f49b4567adf7febdf8", targetid:"id-07545928b21d4712bf5e43c4461bcc94"});
 									dataFoldersContent.push({folderid:"id-a23898bdcbfd43bc8ea74282eeb5dac0", contentid:"id-01e1f869beb24dbd8f2a51e0cb2af860", contenttype:"FlowRelationship"});
 										dataRelationships.push({id:"id-01e1f869beb24dbd8f2a51e0cb2af860", type:"FlowRelationship", name:decodeURL(""), documentation:decodeURL(""), sourceid:"id-07545928b21d4712bf5e43c4461bcc94", targetid:"id-cac059849fe14030a7194c63cc65bbf3"});
+									dataFoldersContent.push({folderid:"id-a23898bdcbfd43bc8ea74282eeb5dac0", contentid:"id-4dfac44d1c9d4a37ba2da2ecff32cf2a", contenttype:"AccessRelationship"});
+										dataRelationships.push({id:"id-4dfac44d1c9d4a37ba2da2ecff32cf2a", type:"AccessRelationship", name:decodeURL(""), documentation:decodeURL(""), sourceid:"id-452577e24263409991e55a563ea7e700", targetid:"id-8cd814ea3cf04e078e5fe6cf57e140a9"});
+									dataFoldersContent.push({folderid:"id-a23898bdcbfd43bc8ea74282eeb5dac0", contentid:"id-864acb4d53254286b6dd7861d8a4eb13", contenttype:"FlowRelationship"});
+										dataRelationships.push({id:"id-864acb4d53254286b6dd7861d8a4eb13", type:"FlowRelationship", name:decodeURL(""), documentation:decodeURL(""), sourceid:"id-61505328993c44a88bf0419d0f44b0a1", targetid:"id-452577e24263409991e55a563ea7e700"});
+									dataFoldersContent.push({folderid:"id-a23898bdcbfd43bc8ea74282eeb5dac0", contentid:"id-1b80a72e9bb94fe78534052efebef543", contenttype:"FlowRelationship"});
+										dataRelationships.push({id:"id-1b80a72e9bb94fe78534052efebef543", type:"FlowRelationship", name:decodeURL(""), documentation:decodeURL(""), sourceid:"id-452577e24263409991e55a563ea7e700", targetid:"id-de55625a9e6b40ba83cbe2e3a6256e52"});
 
 								dataFoldersContent.push({folderid:"id-de7bf16a3f834066beb758e2f696b02e", contentid:"id-bb4cfb0be2384d15a1fa641ee773faf5", contenttype:"Folder"});
 								dataFolders.push({id:"id-bb4cfb0be2384d15a1fa641ee773faf5", type:"Folder", name:decodeURL("Views"), documentation:decodeURL("")});
@@ -2158,7 +2171,7 @@
 										dataFoldersContent.push({folderid:"id-0922376db3b546c399bdc3bf97bd924f", contentid:"id-14e772953ee443d09f8a170b8c9d7ece", contenttype:"Folder"});
 										dataFolders.push({id:"id-14e772953ee443d09f8a170b8c9d7ece", type:"Folder", name:decodeURL("Integrations"), documentation:decodeURL("")});
 											dataFoldersContent.push({folderid:"id-14e772953ee443d09f8a170b8c9d7ece", contentid:"id-f075da70c5e8452ea6d437dfcc6bb721", contenttype:"ArchimateDiagramModel"});
-												dataViews.push({id:"id-f075da70c5e8452ea6d437dfcc6bb721", type:"ArchimateDiagramModel", name:decodeURL("KEEN-DAS-Integration-Product+DO"), documentation:decodeURL("This+view+contains+the+interactions+and+data+flow+between+applications+where+at+least+one+data+object+designated+with+the+name+%22Product%22+is+transferred+between+two+applications.")});
+												dataViews.push({id:"id-f075da70c5e8452ea6d437dfcc6bb721", type:"ArchimateDiagramModel", name:decodeURL("KEEN-DAS-Integration-Product+DO"), documentation:decodeURL("This+view+contains+the+interactions+and+data+flow+between+applications+where+at+least+one+data+object+designated+with+the+name+%22Product%22+is+transferred+between+two+applications.+")});
 														dataViewsContent.push({viewid:"id-f075da70c5e8452ea6d437dfcc6bb721", contentid:"id-e879cdddfa3a43c39db262f94bb2d7ef", contenttype:"ApplicationService"});
 														dataViewsContent.push({viewid:"id-f075da70c5e8452ea6d437dfcc6bb721", contentid:"id-982cecdd73ce4b99bd7a7e7d1780dd57", contenttype:"DataObject"});
 														dataViewsContent.push({viewid:"id-f075da70c5e8452ea6d437dfcc6bb721", contentid:"id-f5468c5aa8a54ea889c2475dccefed5c", contenttype:"ApplicationInterface"});
@@ -2327,6 +2340,8 @@
 																dataViewsContent.push({viewid:"id-f075da70c5e8452ea6d437dfcc6bb721", contentid:"id-12ed4f52f91744698488b4a32abf572a", contenttype:"ApplicationProcess"});
 														
 														
+														dataViewsContent.push({viewid:"id-f075da70c5e8452ea6d437dfcc6bb721", contentid:"id-452577e24263409991e55a563ea7e700", contenttype:"ApplicationService"});
+														dataViewsContent.push({viewid:"id-f075da70c5e8452ea6d437dfcc6bb721", contentid:"id-8cd814ea3cf04e078e5fe6cf57e140a9", contenttype:"DataObject"});
 
 																				dataViewsContent.push({viewid:"id-f075da70c5e8452ea6d437dfcc6bb721", contentid:"id-9367fded0a134bd5b8e75fb5598238a7", contenttype:"FlowRelationship"});
 																				dataViewsContent.push({viewid:"id-f075da70c5e8452ea6d437dfcc6bb721", contentid:"id-245cbe64e3344502a2366f49b18c4ec4", contenttype:"AccessRelationship"});
@@ -2466,6 +2481,7 @@
 																				dataViewsContent.push({viewid:"id-f075da70c5e8452ea6d437dfcc6bb721", contentid:"id-d51b91d0f2e7467e925960eddb32641d", contenttype:"FlowRelationship"});
 																				dataViewsContent.push({viewid:"id-f075da70c5e8452ea6d437dfcc6bb721", contentid:"id-6eae6cf2da394e2ea5d3b78b7cce7c1e", contenttype:"FlowRelationship"});
 																				dataViewsContent.push({viewid:"id-f075da70c5e8452ea6d437dfcc6bb721", contentid:"id-4725fefc73b6488090a358d550f8aade", contenttype:"FlowRelationship"});
+																				dataViewsContent.push({viewid:"id-f075da70c5e8452ea6d437dfcc6bb721", contentid:"id-864acb4d53254286b6dd7861d8a4eb13", contenttype:"FlowRelationship"});
 
 																				dataViewsContent.push({viewid:"id-f075da70c5e8452ea6d437dfcc6bb721", contentid:"id-8f76465a5c8d449da77a06da52ff0d50", contenttype:"FlowRelationship"});
 
@@ -2605,6 +2621,9 @@
 
 														
 														
+																				dataViewsContent.push({viewid:"id-f075da70c5e8452ea6d437dfcc6bb721", contentid:"id-4dfac44d1c9d4a37ba2da2ecff32cf2a", contenttype:"AccessRelationship"});
+																				dataViewsContent.push({viewid:"id-f075da70c5e8452ea6d437dfcc6bb721", contentid:"id-1b80a72e9bb94fe78534052efebef543", contenttype:"FlowRelationship"});
+
 
 											dataFoldersContent.push({folderid:"id-14e772953ee443d09f8a170b8c9d7ece", contentid:"id-b1c4af3919a444b4bd1202f12c93dd10", contenttype:"ArchimateDiagramModel"});
 												dataViews.push({id:"id-b1c4af3919a444b4bd1202f12c93dd10", type:"ArchimateDiagramModel", name:decodeURL("KEEN-DAS-Integration-Order+DO"), documentation:decodeURL("This+view+contains+the+interactions+and+data+flow+between+applications+where+at+least+one+data+object+designated+with+the+name+%22Order%22+is+transferred+between+two+applications.")});
